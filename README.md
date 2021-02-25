@@ -1,6 +1,4 @@
-https://tuts.alexmercedcoder.com/2020/ruby-tut/  
-https://www.youtube.com/watch?v=v0JnoKHe6N0
-https://www.youtube.com/watch?v=T6wlAq7XOYA
+
 
 # README
 
@@ -216,9 +214,35 @@ Headers ->  Autorization -> bearer [token]
 ---------
 --------
 # Elementos que un usuario pueda administrar
+- rails generate scaffold note message:string user:references
 
-rails generate resource note message:string user:references ,
+- revisar relacion de los modelos , belong ,has_many
+
+- editar el controlador
+
+- POSTMAN , ya logeado revisar tus notas  
+GET -> localhost:3000/notes  
+Headers ->  Autorization -> bearer [token]  
+
+- POSTMAN , crear una nota nueva
+POST -> localhost:3000/notes  
+body -> raw -> {    "message":"hola mundo!",    "user_id" : "1"}
+
+
+se pueden registrar varios usuarios
+se pueden logear varios usuarios
+los usuarios pueden crear sus notas
+los usuarios pueden ver sus notas 
+los usuarios pueden actualizar una nota [no aun]
+los usuarios pueden eliminar una nota [no aun]
 
 
 
 
+
+
+
+guia base
+https://tuts.alexmercedcoder.com/2020/ruby-tut/
+https://www.youtube.com/watch?v=v0JnoKHe6N0
+https://www.youtube.com/watch?v=T6wlAq7XOYA
