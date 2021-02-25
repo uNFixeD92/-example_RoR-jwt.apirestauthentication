@@ -217,7 +217,7 @@ Headers ->  Autorization -> bearer [token]
 --------
 # Elementos que un usuario pueda administrar
 
-rails generate resource note message:string user:references
+rails generate resource note message:string user:references ,
 
 
 
