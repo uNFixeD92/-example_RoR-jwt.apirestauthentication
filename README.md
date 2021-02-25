@@ -242,7 +242,5 @@ los usuarios pueden eliminar una nota [no aun]
 
 
 
-guia base
+guia base de alexmercedcoder
 https://tuts.alexmercedcoder.com/2020/ruby-tut/
-https://www.youtube.com/watch?v=v0JnoKHe6N0
-https://www.youtube.com/watch?v=T6wlAq7XOYA
